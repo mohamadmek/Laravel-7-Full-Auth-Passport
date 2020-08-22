@@ -9,3 +9,15 @@
 >$ composer require laravel/ui
 
 >$ php artisan serve
+
+> register require : - name
+                     - email
+                     - password
+                     - password_confirmation
+
+> login require : - email
+                  - password
+
+> send email for forgotpassword : - email and when changing password more than 8 characters
+
+> resend email for email verification: -email
