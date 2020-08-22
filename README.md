@@ -10,6 +10,8 @@
 
 >$ php artisan serve
 
+> add in header Accept : Aplication/json
+
 > register require : - name
                      - email
                      - password
