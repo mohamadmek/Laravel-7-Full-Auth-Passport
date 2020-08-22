@@ -22,7 +22,7 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
         'middleware' => 'auth:api'
     ], function() {
         Route::get('/logout', 'Auth\AuthController@logout');
-        Route::get('/json', 'Auth\AuthController@get_users')->middleware('admin');  
+        Route::get('/json', 'Auth\AuthController@get_users')->middleware('emailverified');  
     });
 
 
